@@ -32,3 +32,10 @@ yarn run test:unit
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+TODO:
+* set css style
+* write plugin, loading,toast,infinite-scroll
+* set pwa
+* write common component
+* add git cz commit
