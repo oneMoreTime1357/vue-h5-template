@@ -1,0 +1,75 @@
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  -webkit-text-size-adjust: 100% !important;
+  // -webkit-user-select: none;  禁止选中文本（如无文本选中需求，此为必选项）
+  // user-select: none;
+  // -webkit-font-smoothing: antialiased;
+}
+
+html {
+  @include root-font-size();
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  background-color: #f4f4f4;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: px2rem(28);
+  border-width: rem2px(0.6);
+  margin-right: auto!important;
+  margin-left: auto!important;
+  background-color: #fff;
+  min-height: 100vh;
+}
+
+pre {
+  font-family: -apple-system-font,"PingFang SC", "Helvetica Neue","Hiragino Sans GB",sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a, img {
+  -webkit-touch-callout: none; /* 禁止长按链接与图片弹出菜单 */
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+
+img {
+  border: 0;
+  -webkit-touch-callout: none;
+}
+
+input, img {
+  vertical-align: middle;
+}
+
+input, select, textarea {
+  font-size: 100%;
+  outline: none;
+  border-radius: 0;
+  border:0;
+}
