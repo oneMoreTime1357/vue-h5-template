@@ -8,7 +8,7 @@
   </div>
 </template>
 
-<style lang="scss">
+<style>
 @import './styles/app.scss';
 @import './styles/reset.scss';
 
