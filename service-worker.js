@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.e54ef9db7a9ab9389b941678c9a02cd7.js"
+  "/vue-h5-template/precache-manifest.6af21d9e0ac81cd03beced31b841caa2.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "vue-h5-template"});
